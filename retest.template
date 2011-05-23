@@ -3,5 +3,5 @@
   {testdir, "retest"}
 ]}.
 {dir, ["{{testdir}}/t_{{name}}"]}.
-{template, "retest.erl", "{{testdir}}/t_{{name}}/{{name}}_rt.erl"}.
+{template, "retest.erl", "{{testdir}}/t_{{name}}/t_{{name}}_rt.erl"}.
 {template, "retest_dummy.erl", "{{testdir}}/t_{{name}}/{{name}}.erl"}.
