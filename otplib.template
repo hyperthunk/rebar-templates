@@ -1,0 +1,4 @@
+
+{variables, [{name, "lib_"}, 
+             {description, "A simple OTP library"}]}.
+{template, "otplib.app.src", "src/{{name}}.app.src"}.
